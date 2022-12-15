@@ -1,0 +1,8 @@
+.search--input {
+  height: 40px;
+  border: 1px solid var(--color-black);
+  border-radius: 10px;
+  padding-left: 10px;
+  width: 80%;
+  outline: none;
+}

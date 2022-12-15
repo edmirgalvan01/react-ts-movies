@@ -1,0 +1,12 @@
+.trending {
+  border-radius: 10px;
+  height: 100px;
+  border: 1px solid var(--color-black);
+}
+.trending--title {
+  font-size: 17px;
+  font-weight: 600;
+}
+.trending--description {
+  font-size: 12px;
+}

@@ -1,0 +1,228 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Barlow", sans-serif;
+}
+
+:root {
+  --color-black: #222831;
+  --color-grey: #393e46;
+  --color-yellow: #ffd369;
+  --color-white: #eeeeee;
+  --color-green: #379237;
+  --color-red: #d2001a;
+}
+/* text */
+.text-center {
+  text-align: center !important;
+}
+.text-left {
+  text-align: left !important;
+}
+.text-right {
+  text-align: right !important;
+}
+/* width - height */
+.w-100 {
+  width: 100% !important;
+}
+.w-50 {
+  width: 50% !important;
+}
+.vw-100 {
+  width: 100vw !important;
+}
+.vw-50 {
+  width: 50vw !important;
+}
+.h-100 {
+  height: 100% !important;
+}
+.vh-100 {
+  height: 100vh !important;
+}
+.vh-50 {
+  height: 50vh !important;
+}
+.h-50 {
+  height: 50% !important;
+}
+
+/* margin */
+.m-1 {
+  margin: 10px;
+}
+.m-2 {
+  margin: 20px;
+}
+.m-3 {
+  margin: 30px;
+}
+.mt-1 {
+  margin-top: 30px;
+}
+.mt-2 {
+  margin-top: 20px;
+}
+.mt-3 {
+  margin-top: 30px;
+}
+.mb-1 {
+  margin-top: 10px;
+}
+.mb-2 {
+  margin-top: 20px;
+}
+.mb-3 {
+  margin-top: 30px;
+}
+.mx-1 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+.mx-2 {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.mx-3 {
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.my-1 {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+.my-2 {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.my-3 {
+  margin-left: 30px;
+  margin-right: 30px;
+}
+
+/* padding */
+.p-1 {
+  padding: 10px;
+}
+.p-2 {
+  padding: 20px;
+}
+.p-3 {
+  padding: 30px;
+}
+.pt-1 {
+  padding-top: 30px;
+}
+.pt-2 {
+  padding-top: 20px;
+}
+.pt-3 {
+  padding-top: 30px;
+}
+.pb-1 {
+  padding-top: 10px;
+}
+.pb-2 {
+  padding-top: 20px;
+}
+.pb-3 {
+  padding-top: 30px;
+}
+.px-1 {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+.px-2 {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.px-3 {
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.py-1 {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+.py-2 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.py-3 {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+/* display */
+.flex {
+  display: flex !important;
+}
+.grid {
+  display: grid !important;
+}
+
+/* justify-content */
+.justify-content-center {
+  justify-content: center !important;
+}
+.justify-content-start {
+  justify-content: flex-start !important;
+}
+.justify-content-end {
+  justify-content: flex-end !important;
+}
+.justify-content-between {
+  justify-content: space-between !important;
+}
+.justify-content-around {
+  justify-content: space-around !important;
+}
+.justify-content-evenly {
+  justify-content: space-evenly !important;
+}
+
+/* align-items */
+.align-items-center {
+  align-items: center !important;
+}
+.align-items-start {
+  align-items: flex-start !important;
+}
+.align-items-end {
+  align-items: flex-end !important;
+}
+.align-items-stretch {
+  align-items: stretch !important;
+}
+.align-items-baseline {
+  align-items: baseline !important;
+}
+
+/* flex-direction */
+.flex-column {
+  flex-direction: column !important;
+}
+.flex-row {
+  flex-direction: row !important;
+}
+.flex-wrap {
+  flex-wrap: wrap !important;
+}
+
+/* gap */
+.gap-1 {
+  gap: 10px;
+}
+.gap-2 {
+  gap: 20px;
+}
+.gap-3 {
+  gap: 30px;
+}
+
+/* cursor */
+.pointer {
+  cursor: pointer;
+}

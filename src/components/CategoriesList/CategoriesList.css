@@ -1,0 +1,12 @@
+.categories--title {
+  font-size: 1.2rem;
+}
+.category--letter {
+  border-radius: 5px;
+  height: 40px;
+  width: 40px;
+  color: var(--color-white);
+  font-size: 1.5rem;
+  text-align: center;
+  background-color: var(--color-black);
+}
