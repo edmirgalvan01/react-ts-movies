@@ -13,7 +13,7 @@ export const YearsList = () => {
         {YEARS_LIST.map((year) => {
           return (
             <div
-              onClick={() => navigate(`/año/${year}`)}
+              onClick={() => navigate(`/react-ts-movies/año/${year}`)}
               key={year}
               className="year pointer flex align-items-center justify-content-center"
             >

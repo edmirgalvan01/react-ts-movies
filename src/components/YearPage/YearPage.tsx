@@ -4,7 +4,7 @@ import { Header } from "../Header/Header";
 import "./YearPage.css";
 
 export const YearPage = () => {
-  const year = parseInt(location.pathname.split("/")[2]);
+  const year = parseInt(location.pathname.split("/")[3]);
 
   const { response, loading } = useGetMoviesByYear(year);
 

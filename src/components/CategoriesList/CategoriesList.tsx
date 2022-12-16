@@ -15,7 +15,9 @@ export const CategoriesList = () => {
           return (
             <div
               onClick={() =>
-                navigate(`/categoria/${category.name}/${category.id}`)
+                navigate(
+                  `/react-ts-movies/categoria/${category.name}/${category.id}`
+                )
               }
               key={category?.id}
               className="category pointer flex gap-2 align-items-center"

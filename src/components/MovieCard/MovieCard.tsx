@@ -25,7 +25,7 @@ export const MovieCard = ({ movie }: Props) => {
 
   return (
     <div
-      onClick={() => navigate(`/pelicula/${movie.id}`)}
+      onClick={() => navigate(`/react-ts-movies/pelicula/${movie.id}`)}
       className="movie-card flex justify-content-center align-items-center"
     >
       {getMovieContent()}

@@ -3,7 +3,7 @@ import { BiHomeAlt } from "react-icons/bi";
 import "./MoviePage.css";
 
 export const MoviePage = () => {
-  const movieId: number = parseInt(location.pathname.split("/")[2]);
+  const movieId: number = parseInt(location.pathname.split("/")[3]);
 
   const { response: movie, loading } = useGetMovieById(movieId);
 

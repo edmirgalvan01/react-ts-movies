@@ -5,7 +5,7 @@ import "./SearchPage.css";
 
 export const SearchPage = () => {
   //get keyword by url
-  const keyword: string = location.pathname.split("/")[2];
+  const keyword: string = location.pathname.split("/")[3];
 
   //Formated keyword
   const decodedKeyword = decodeURI(keyword);

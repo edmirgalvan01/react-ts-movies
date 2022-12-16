@@ -12,7 +12,7 @@ export const TrendingSection = ({ title, description, navigateTo }: Props) => {
 
   return (
     <div
-      onClick={() => navigate(`${navigateTo}`)}
+      onClick={() => navigate(`/react-ts-movies${navigateTo}`)}
       className="trending pointer w-100 flex flex-column gap-1 justify-content-center py-2"
     >
       <h2 className="trending--title">{title}</h2>

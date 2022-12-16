@@ -3,8 +3,8 @@ import { Header } from "../Header/Header";
 import { MoviesListLayoutWithMainTitle } from "../MoviesListLayout/MoviesListLayout";
 
 export const CategoryPage = () => {
-  const categoryId: string = location.pathname.split("/")[3];
-  const decodedCategory = decodeURI(location.pathname.split("/")[2]);
+  const categoryId: string = location.pathname.split("/")[4];
+  const decodedCategory = decodeURI(location.pathname.split("/")[3]);
 
   const { response, loading } = useGetMoviesByCategory(categoryId);
 

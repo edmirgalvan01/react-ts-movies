@@ -10,7 +10,7 @@ export const HomeSearch = () => {
 
   const handleSubmit = () => {
     //If there is keyword, navigate to
-    if (keyword) navigate(`/buscar/${keyword}`);
+    if (keyword) navigate(`/react-ts-movies/buscar/${keyword}`);
   };
 
   return (

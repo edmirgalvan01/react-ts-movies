@@ -8,7 +8,7 @@ export const Header = () => {
 
   return (
     <header
-      onClick={() => navigate("/")}
+      onClick={() => navigate("/react-ts-movies/")}
       className="p-2 flex justify-content-between align-items-center"
     >
       <BiHomeAlt size={30} color="222831" />
