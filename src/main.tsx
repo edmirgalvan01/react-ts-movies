@@ -12,31 +12,31 @@ import { MoviePage } from "./components/MoviePage/MoviePage";
 
 const router = createBrowserRouter([
   {
-    path: "/",
+    path: "react-ts-movies/",
     element: <Home />,
   },
   {
-    path: "/buscar/:keyword",
+    path: "react-ts-movies/buscar/:keyword",
     element: <SearchPage />,
   },
   {
-    path: "/popular/peliculas",
+    path: "react-ts-movies/popular/peliculas",
     element: <TrendingMovies />,
   },
   {
-    path: "/popular/shows",
+    path: "react-ts-movies/popular/shows",
     element: <TrendingShows />,
   },
   {
-    path: "/categoria/:categoryName/:categoryId",
+    path: "react-ts-movies/categoria/:categoryName/:categoryId",
     element: <CategoryPage />,
   },
   {
-    path: "/año/:year",
+    path: "react-ts-movies/año/:year",
     element: <YearPage />,
   },
   {
-    path: "/pelicula/:movieId",
+    path: "react-ts-movies/pelicula/:movieId",
     element: <MoviePage />,
   },
 ]);
